@@ -1,71 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My resume</title>
-    </head>
-    <body>
-    <img src="./WhatsApp Image 2025-06-10 at 01.05.00_b2c330dc.jpg"height="400"/>
-    <h1>TANISHQ MOHANTY</h1>
-    <hr/>
-        <h2>SUMMARY</h2>
-        <img src="./download (2).jpg"height="50"/>
-        <P>I'm Tanishq Mohanty, an aspiring web developer with a foundation in C programming and python , passionate about learning and creating impactful digital experiences. I'm eager to join a college society to grow with peers, learn from seniors, and contribute meaningfully.</P>
-        <hr/>
-        <h2>EDUCATION</h2>
-        <img src="./download.jpg"height="50"/>
-        <ul>
-            <li>BE-ELECTRONICS AND COMPUTER ENGINEERING(2nd year)
-                <ul> THAPAR INSTITUTE OF ENGINEERING AND TECHNOLOGY,PATIALA,PUNJAB</ul>
-            </li>
-        <li>CBSE CLASS 12TH (PCM)
-            <ul>DAV PUBLIC SCHOOL,SECTOR-14,FARIDABAD,HARYANA</ul>
-            <ul>PCM PERCENTAGE(%)-85</ul>
-        </li>
-           <li>CBSE CLASS 10TH</li>
-            <ul>DAV PUBLIC SCHOOL,SECTOR-14,FARIDABAD,HARYANA</ul>
-            <ul>PERCENTAGE(%)-90.2</ul>
-        </ul>
-        <hr/>
-        <h2>SKILLS</h2>
-        <img src="./download (1).jpg"height="50"/>
-        <ul>
-                <h3>SOFT</h3>
-                <li>C LANGUAGE</li>
-                <li>PYTHON</li>
-                <li>FRONTEND DEVELOPMENT(HTML,CSS,JAVASCRIPT)(LEARNING CURRENTLY)</li>
-                 <h3>HARD</h3>
-                 <li>TEAM PERSON</li>
-                 <li>ADAPTIBILITY</li>
-                 <li>CO-OPERATIVE</li>
-        </ul>
-        <hr/>
-        <h2>OTHER ACHIEVEMENTS</h2>
-        <img src="./download.png"height="50"/>
-        <ul>
-            <li>NATIONAL AND CLUB LEVEL FOOTBALL PLAYER</li>
-            <li>NATIONAL LEVEL SKATER</li>
-            <li>3RD AT NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (NASA) OLYMPIAD</li>
-        </ul>
-        <hr/>
-        <h2>OTHER EXTERNAL RESOURCES</h2>
-        <ul>
-            <li>LINKDIN</li>
-            <a href="https://www.linkedin.com/in/tanishq-mohanty-797893314/"><img src="./LD.png" height="80"></a>
-            <li>GITHUB</li>
-            <a href="https://github.com/TANISHQ-code"><img src="./GH.png"height="80"width="110"></a>
-        </ul>
 
-        <footer>
-            <small>
-                CONTACT ME:8595624132///mohantytanishq@gmail.com///tmohahnty_be24@thapar.edu
-            </small>
-        </footer>
-            
-        
-        
-        
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .flag{
+      height: 600px;
+      width: 900px;
+      background-color: rgb(206, 17, 38);
+      position: relative;
+    }
+    .flag >p{
+      color: white;
+      text-align: center;
+      position: relative;
+      top: 55px;
+      font-size: 3rem;
+      font-family: 'Times New Roman', Times, serif;
+      
+    }
+    .flag>div>div>p{
+      text-align: center;
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      font-size: 3rem;
+      font-family: 'Times New Roman', Times, serif;
+      
+    }
+    .flag >div>div{
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      background-color: white;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+      
+    }
+    .flag>div{
+      width: 900px;
+      height: 300px;
+      background-color: #002868;
+      position: absolute;
+      top: 150px;
+      
+    }
     
+  
+    
+  </style>
+  <link rel="stylesheet" href="">
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p >of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
